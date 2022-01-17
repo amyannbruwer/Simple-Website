@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Froggy</title>
+    <link rel="shortcut icon" type="image/jpg" href="favicon2.ico" />
+    <link rel="stylesheet" href="froggy.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+
+    <style>
+        body {
+            font-family: 'Poppins';
+            font-size: 22px;
+        }
+    </style>
+
+</head>
+
+<body style="margin: 0;">
+    <div style="text-align: center; padding: 20px;">
+        <h1 class="head"> Froggy the pet Frog</h1>
+        <h2 class="sub"> Big the Cat's best friend</h2>
+    </div>
+
+    <!--First Section-->
+    <img class="profile" src="SFSB_Froggy.jpg" alt="This is how Sonic the Hedgehog looks">
+    <div class="about">
+        <h1> Hi I'm Froggy the pet frog! </h1>
+        <p class="paragraph">
+            Froggy is a character from the Sonic the Hedgehog series. He is the pet frog and best friend of Big
+            the Cat, though he has a habit of running off on his own, leaving Big to set off each time to find him.
+        </p>
+    </div>
+
+    <h2 style="text-align: center;"> Other Characters</h2>
+    <div style="text-align: center;">
+        <span onclick="amy()" class="click">Amy Rose</span>
+        <span onclick="btc()" class="click"> Big the Cat </span>
+        <span onclick="sonic()" class="click"> Sonic</span>
+    </div>
+
+    <div style="height: 30px;">
+    </div>
+
+    <!--Responsive Contact Section</h2>
+        <p>Resize the browser window to see the effect.</p>
+        -->
+
+    <div class="container">
+        <div style="text-align:center">
+            <h2>Contact Us</h2>
+            <p>Swing by for a cup of coffee, or leave us a message:</p>
+        </div>
+        <div class="row">
+            <div class="column">
+                <img src="froggy.jpg" style="width:100%;">
+            </div>
+            <div class="column">
+                <form action="/action_page.php">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                    <label for="country">Country</label>
+                    <select id="country" name="country">
+                        <option value="australia">Australia</option>
+                        <option value="canada">Canada</option>
+                        <option value="rsa"> South Africa</option>
+                        <option value="usa">USA</option>
+                    </select>
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.."
+                        style="height:170px"></textarea>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- <form action="welcome.php" method="post">
+            Name: <input type="text" name="name"><br>
+            E-mail: <input type="text" name="email"><br>
+            <input type="submit">
+        </form>
+        -->
+
+    <!--Footer-->
+    <footer class="footer">
+        <h1 class="footertext">Made with 🤍 at Sonic Hub</h1>
+    </footer>
+
+    <script src="froggy.js"></script>
+    <noscript>You need to enable JavaScript to view the full site.</noscript>
+</body>
+
+</html>

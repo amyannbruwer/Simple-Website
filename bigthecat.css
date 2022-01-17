@@ -1,0 +1,52 @@
+.profile {
+    height: 500px;
+    margin: 60px;
+    float: left;
+    border: 4px solid rgb(151, 54, 231);
+    padding: 20px;
+}
+
+.about {
+    flex-direction: column;
+    height: auto;
+    margin: 100px;
+    margin-bottom: 150px;
+}
+.paragraph {
+    flex-wrap: wrap;
+    line-height: 2.0;
+    font-size: 20px;
+}
+
+.head{
+    font-size: 100px;
+    color:  white;
+    margin: 10px;
+}
+
+.sub{
+    font-size: 30px;
+    color: white;
+    font-style: italic;
+    margin: 10px;
+}
+
+.click{
+    /*text-align: center;*/
+    cursor: pointer;
+    font-size: 20px;
+    margin:20px;
+    font-weight: bold;
+}
+.footer {
+    height: auto;
+    background-color: rgb(151, 54, 231);
+    color: white;
+    margin-top: 50px;
+}
+
+.footertext {
+    padding: 40px;
+    margin: 0;
+    text-align: center;
+}

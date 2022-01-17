@@ -1,0 +1,141 @@
+:root {
+    --green: #00FF00;
+    --white: #ffffff;
+    --pink: #000000;
+}
+
+* {
+color: var(--fontColor);
+}
+
+body {
+    background: var(--bg);
+}
+
+
+ul {
+    font-family: helvetica;
+}
+
+li {
+  list-style: circle;
+}
+
+.list {
+  list-style: square;
+}
+
+.light-theme {
+    --bg: var(--green);
+    --fontColor: var(--pink);
+    --btnBg: var(--pink);
+    --btnFontColor: var(--white);
+}
+
+.dark-theme{
+    --bg: var(--pink);
+    --fontColor: var(--green);
+    --btnBg: var(--white);
+    --btnFontColor: var(--pink);
+}
+
+.btn {
+    position: absolute;
+    top: 20px;
+    left: 250px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+}
+
+.btn:focus { outline-style: none; }
+
+.divider {
+   width:300px;height:200px; background-color:red;
+   color:var(--white);
+   font-family: Times;
+}
+
+.inner {
+    width:100px;height:100px; background-color:yellow;
+    color: #5555b1;
+    font-family: Luminari, fantasy;
+}
+
+.image {
+    border: 10px solid wheat;
+}
+
+.first {
+    background-image: url(background-image.jpg);
+      background-size: cover; height:480px; padding-top:80px;
+      margin-left: 10px;
+}
+
+.avatar {
+    padding: 10px;
+    padding-left: 30px;
+    padding-right:20px;
+    border-radius: 30%;
+    border: 4px solid #ec2121;
+    height:150px;
+    color:  white;
+
+}
+
+.head {
+    font-size: 100px;
+    color:white;
+    margin: 10px;
+}
+
+.sub {
+    font-size: 30px;
+    color:white;
+    margin: 10px;
+    font-style: italic;
+}
+
+.profile {
+    height: auto;
+    margin: 60px;
+    float: left;
+    border: 4px solid rgb(235, 133, 201);
+}
+
+.about {
+    flex-direction: column;
+    height: auto;
+    margin: 100px;
+    margin-bottom: 150px;
+}
+
+.paragraph {
+    flex-wrap: wrap;
+    line-height: 2.0;
+    font-size: 20px;
+}
+
+.footer {
+    height: auto;
+    background-color: #F7C201;
+    color: white;
+    margin-top: 50px;
+}
+
+.footertext {
+    padding: 40px;
+    margin: 0;
+    text-align: center;
+}
+
+.click{
+    /*text-align: center;*/
+    cursor: pointer;
+    font-size: 20px;
+    margin:20px;
+    font-weight: bold;
+}
